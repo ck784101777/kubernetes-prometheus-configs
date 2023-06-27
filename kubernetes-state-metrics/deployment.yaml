@@ -21,7 +21,7 @@ spec:
     spec:
       automountServiceAccountToken: true
       containers:
-      - image: bitnami/kube-state-metrics:v2.8.2
+      - image: bitnami/kube-state-metrics:2.8.2
         livenessProbe:
           httpGet:
             path: /healthz
